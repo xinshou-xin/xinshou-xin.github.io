@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EMRStdAgent 论文展示</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body class="bg-gray-100 font-sans">
+  <!-- 网站头部 -->
+  <header class="bg-gray-100 text-center py-10">
+    <h1 class="text-3xl font-bold text-gray-800 max-w-4xl mx-auto px-4">
+      EMRStdAgent: An Intelligent Framework Based on Large Language Models for Solving Medical Data Standardization and Cross-Language Terminology Matching Challenges
+    </h1>
+    <p class="text-lg text-gray-600 mt-4 px-6 max-w-4xl mx-auto">
+      Lijuan Wu<sup>1,2#</sup>, <a href="#" style="color: rgb(92, 167, 160);">Jinxin Huang<sup>1#</sup></a>, Hongnian Wang<sup>5#</sup>, Liyi Mai<sup>1</sup>, Yuxin Fan<sup>1</sup>, Xueyun Zhan<sup>1</sup>, Xinrong He<sup>1</sup>, Abdelouahab Bellou<sup>1,3,4*</sup>
+    </p>
+    
+  </header>
+
+  <!-- 功能按钮区域 -->
+  <div class="flex flex-wrap justify-center gap-4 mb-8 px-4">
+    <a href="https://arxiv.org/xxx" class="inline-block bg-gray-700 text-white px-4 py-2 rounded-full hover:bg-gray-800 transition">
+      <i class="fa-brands fa-arxiv"></i> arXiv
+    </a>
+    <a href="https://github.com/xinshou-xin/xinshou-xin.github.io" class="inline-block bg-gray-700 text-white px-4 py-2 rounded-full hover:bg-gray-800 transition">
+      <i class="fa-brands fa-github"></i> Code
+    </a>
+    <a href="https://model-link-7b.com" class="inline-block bg-gray-700 text-white px-4 py-2 rounded-full hover:bg-gray-800 transition">
+      <i class="fa-solid fa-microchip"></i> Model (7B)
+    </a>
+    <a href="https://model-link-13b.com" class="inline-block bg-gray-700 text-white px-4 py-2 rounded-full hover:bg-gray-800 transition">
+      <i class="fa-solid fa-microchip"></i> Model (13B)
+    </a>
+    <a href="https://data-link.com" class="inline-block bg-gray-700 text-white px-4 py-2 rounded-full hover:bg-gray-800 transition">
+      <i class="fa-solid fa-database"></i> Data
+    </a>
+    <a href="https://hf-space-link.com" class="inline-block bg-gray-700 text-white px-4 py-2 rounded-full hover:bg-gray-800 transition">
+      <i class="fa-brands fa-hugging-face"></i> HF Space
+    </a>
+  </div>
+
+  <!-- 论文内容区域 -->
+  <main class="max-w-3xl mx-auto px-4 py-8 space-y-8">
+    <section id="abstract">
+      <h2 class="text-2xl font-bold border-b-2 border-gray-300 pb-2">Abstract</h2>
+      <p class="text-gray-700 mt-2">
+        The standardization of laboratory data is essential for achieving interoperability in multi-center electronic medical records (EMRs), yet cross-linguistic terminology mapping remains a significant challenge. Existing approaches, often based on rule-based or simple similarity-matching methods, struggle with language variations and semantic ambiguities, limiting their effectiveness. To address this, we propose <strong>EMRStdAgent</strong>, an intelligent framework that integrates multi-stage vector retrieval, retrieval-augmented generation (RAG)-based reasoning, and expert validation to enhance LOINC code mapping. Our experiments on the MIMIC and GDPH datasets show that EMRStdAgent achieves approximately 90% accuracy, significantly outperforming traditional methods. This research provides a scalable and efficient solution for medical data standardization, paving the way for improved global healthcare data interoperability.
+      </p>
+    </section>
+
+    <!-- 其他部分等待补充 -->
+  </main>
+
+  <!-- 网站底部 -->
+  <footer class="bg-gray-800 text-white text-center py-6">
+    <p>&copy; 2025-04-11 此网站由作者黄锦新本人制作</p>
+    <p class="text-sm text-gray-500 mt-2 px-6 max-w-4xl mx-auto leading-relaxed">
+        <sup>1</sup>Institute of Sciences in Emergency Medicine, Department of Emergency Medicine, Guangdong Provincial People’s Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou, China.<br>
+        <sup>2</sup>Medical Research Institute, Guangdong Provincial People’s Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou, China.<br>
+        <sup>3</sup>Department of Emergency Medicine, Guangdong Provincial People’s Hospital, Southern Medical University, Guangzhou, China.<br>
+        <sup>4</sup>Global Network on Emergency Medicine, Brookline, MA, USA.<br>
+        <sup>5</sup>Key Laboratory of Digital-Intelligent Disease Surveillance and Health Governance, North Sichuan Medical College, Nanchong, China.
+      </p>
+  </footer>
+</body>
+
+</html>
