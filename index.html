@@ -48,8 +48,7 @@
     <section id="abstract">
       <h2 class="text-2xl font-bold border-b-2 border-gray-300 pb-2">Abstract</h2>
       <p class="text-gray-700 mt-2">
-        The standardization of laboratory data is essential for achieving interoperability in multi-center electronic medical records (EMRs), yet cross-linguistic terminology mapping remains a significant challenge. Existing approaches, often based on rule-based or simple similarity-matching methods, struggle with language variations and semantic ambiguities, limiting their effectiveness. To address this, we propose <strong>EMRStdAgent</strong>, an intelligent framework that integrates multi-stage vector retrieval, retrieval-augmented generation (RAG)-based reasoning, and expert validation to enhance LOINC code mapping. Our experiments on the MIMIC and GDPH datasets show that EMRStdAgent achieves approximately 90% accuracy, significantly outperforming traditional methods. This research provides a scalable and efficient solution for medical data standardization, paving the way for improved global healthcare data interoperability.
-      </p>
+        Laboratory testing plays a critical role in clinical decision-making and forms a substantial part of electronic medical records (EMRs). Standardizing laboratory test names is essential for achieving semantic interoperability across healthcare systems. The Logical Observation Identifiers Names and Codes (LOINC) system provides a global standard for laboratory data, yet mapping local test names to LOINC codes remains challenging, especially across different languages. We propose an LLM-driven agent framework to address these challenges. The framework divides the mapping process into three components: Tool Component for translation and retrieval, Reasoning Component for semantic inference, and Validation Component for verification. Evaluation on two real-world datasets—the Guangdong Provincial People's Hospital (GDPH) dataset (Chinese) and the MIMIC-IV dataset (English)—demonstrated substantial performance gains. Compared to rule-based and similarity-matching methods, the agent achieved up to a 30–40% relative improvement in mapping accuracy. These results highlight the agent’s potential to enable scalable, cross-lingual standardization of laboratory test names and promote global healthcare data interoperability. The code is available at https://xinshou-xin.github.io.
     </section>
 
     <!-- 其他部分等待补充 -->
@@ -57,7 +56,7 @@
 
   <!-- 网站底部 -->
   <footer class="bg-gray-800 text-white text-center py-6">
-    <p>&copy; 2025-04-11 此网站由作者黄锦新本人制作</p>
+    <p>&copy; 2025-04-11 This website was made by the author Huang Jinxin </p>
     <p class="text-sm text-gray-500 mt-2 px-6 max-w-4xl mx-auto leading-relaxed">
         <sup>1</sup>Institute of Sciences in Emergency Medicine, Department of Emergency Medicine, Guangdong Provincial People’s Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou, China.<br>
         <sup>2</sup>Medical Research Institute, Guangdong Provincial People’s Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou, China.<br>
