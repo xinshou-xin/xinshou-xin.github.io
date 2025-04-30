@@ -16,7 +16,7 @@
       An LLM-Driven Agent for Cross-Language Standardization of Laboratory Test Names
     </h1>
     <p class="text-lg text-gray-600 mt-4 px-6 max-w-4xl mx-auto">
-      Lijuan Wu<sup>1,2#</sup>, <a href="a.html" style="color: rgb(92, 167, 160);">Jinxin Huang<sup>1#</sup></a>, Hongnian Wang<sup>5#</sup>, Liyi Mai<sup>1</sup>, Yuxin Fan<sup>1</sup>, Xueyun Zhan<sup>1</sup>, Xinrong He<sup>1</sup>, Abdelouahab Bellou<sup>1,3,4*</sup>
+      Lijuan Wu<sup>1,2#*</sup>, <a href="a.html" style="color: rgb(92, 167, 160);">Jinxin Huang<sup>1#</sup></a>, Hongnian Wang<sup>3#</sup>, Liyi Mai<sup>1</sup>, Yuxin Fan<sup>1</sup>, Xueyun Zhan<sup>1</sup>, Xinrong He<sup>1</sup>, Abdelouahab Bellou<sup>1,4,5*</sup>
     </p>
     
   </header>
@@ -48,7 +48,7 @@
     <section id="abstract">
       <h2 class="text-2xl font-bold border-b-2 border-gray-300 pb-2">Abstract</h2>
       <p class="text-gray-700 mt-2">
-        Laboratory testing plays a critical role in clinical decision-making and forms a substantial part of electronic medical records (EMRs). Standardizing laboratory test names is essential for achieving semantic interoperability across healthcare systems. The Logical Observation Identifiers Names and Codes (LOINC) system provides a global standard for laboratory data, yet mapping local test names to LOINC codes remains challenging, especially across different languages. We propose an LLM-driven agent framework to address these challenges. The framework divides the mapping process into three components: Tool Component for translation and retrieval, Reasoning Component for semantic inference, and Validation Component for verification. Evaluation on two real-world datasets—the Guangdong Provincial People's Hospital (GDPH) dataset (Chinese) and the MIMIC-IV dataset (English)—demonstrated substantial performance gains. Compared to rule-based and similarity-matching methods, the agent achieved up to a 30–40% relative improvement in mapping accuracy. These results highlight the agent’s potential to enable scalable, cross-lingual standardization of laboratory test names and promote global healthcare data interoperability. The code is available at https://xinshou-xin.github.io.
+        Laboratory testing plays a critical role in clinical decision-making and forms a substantial part of electronic medical records (EMRs). Standardizing laboratory test names is essential for achieving semantic interoperability across healthcare systems. The Logical Observation Identifiers Names and Codes (LOINC) system provides a global standard for laboratory data, yet mapping local test names to LOINC codes remains challenging, especially across different languages. We propose an LLM-driven agent framework to address these challenges. The framework divides the mapping process into three components: Tool Component for translation and retrieval, Reasoning Component for semantic inference, and Validation Component for verification. Evaluation on two real-world datasets—the Guangdong Provincial People's Hospital (GDPH) dataset (Chinese) and the MIMIC-IV dataset (English)—demonstrated substantial performance gains. Compared to rule-based and similarity-matching methods, the agent achieved up to a 30–40% relative improvement in mapping accuracy. These results highlight the agent’s potential to enable scalable, cross-lingual standardization of laboratory test names and promote global healthcare data interoperability. The code is available at <a style="text-decoration: none;">https://xinshou-xin.github.io</a>.
     </section>
 
     <!-- 其他部分等待补充 -->
@@ -60,9 +60,10 @@
     <p class="text-sm text-gray-500 mt-2 px-6 max-w-4xl mx-auto leading-relaxed">
         <sup>1</sup>Institute of Sciences in Emergency Medicine, Department of Emergency Medicine, Guangdong Provincial People’s Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou, China.<br>
         <sup>2</sup>Medical Research Institute, Guangdong Provincial People’s Hospital (Guangdong Academy of Medical Sciences), Southern Medical University, Guangzhou, China.<br>
-        <sup>3</sup>Department of Emergency Medicine, Guangdong Provincial People’s Hospital, Southern Medical University, Guangzhou, China.<br>
-        <sup>4</sup>Global Network on Emergency Medicine, Brookline, MA, USA.<br>
-        <sup>5</sup>Key Laboratory of Digital-Intelligent Disease Surveillance and Health Governance, North Sichuan Medical College, Nanchong, China.
+        <sup>3</sup>Key Laboratory of Digital-Intelligent Disease Surveillance and Health Governance, North Sichuan Medical College, Nanchong, China.  
+        <sup>4</sup>Department of Emergency Medicine, Guangdong Provincial People’s Hospital, Southern Medical University, Guangzhou, China.<br>
+        <sup>5</sup>Global Network on Emergency Medicine, Brookline, MA, USA.<br>
+
       </p>
   </footer>
 </body>
